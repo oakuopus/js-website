@@ -34,7 +34,7 @@ header.appendChild(gallery)
 var nav = document.querySelectorAll(".nav") //use query selector to search dom for all tags with class of nav
 for(let i=0; i < nav.length; i++){ // use for loop for the length of the amount of classes
     nav[i].style.color = "white" // systematically apply styles to all tags with class nav
-    nav[i].style.padding = "4vh 0 3vh 2vw"
+    nav[i].style.padding = "3.5vh 0 3vh 2vw"
     nav[i].style.fontSize = "250%"
     nav[i].style.textDecoration = "none"
 }
